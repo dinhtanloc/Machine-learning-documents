@@ -1,0 +1,13 @@
+import torch
+a = torch.randn(2,3)
+print(a)
+print("exp =", torch.exp(a))
+print("log =", torch.log(a))
+print("sin =", torch.sin(a))
+print("arctan =", torch.arctan(a))
+print("abs =", torch.abs(a))
+print("square =", torch.square(a))
+print("sqrt =", torch.sqrt(a))
+print("ceil =", torch.ceil(a))
+print("round =", torch.round(a))
+print("clip =", torch.clip(a, 0.1, 0.9))
